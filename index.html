@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Toko Rokok Digital</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Toko Rokok Digital</h1>
+  <p>Kualitas terbaik, harga bersahabat</p>
+</header>
+
+<div id="cart-float">🛒 <span id="cart-count">0</span></div>
+
+<div id="cart-panel">
+  <div id="cart-box">
+    <h2>Keranjang</h2>
+    <div id="cart-items"></div>
+    <h3>Total: Rp <span id="cart-total">0</span></h3>
+    <button id="checkout" class="checkout-btn">Checkout</button>
+    <button id="close-cart" class="close-btn">Tutup</button>
+  </div>
+</div>
+
+<!-- ========================= -->
+<!-- PANEL ALAMAT (SUDAH FIX) -->
+<!-- ========================= -->
+<div id="alamat-panel">
+  <div id="alamat-box">
+    <h2>Masukkan Data Pengiriman</h2>
+
+    <!-- ALAMAT -->
+    <input id="alamat-input" type="text" placeholder="Ketik alamat lengkap..." />
+
+    <!-- JENIS ONGKIR -->
+    <h3>Jenis Ongkir:</h3>
+    <input type="text" id="jenis-ongkir" placeholder="Reguler / Sameday / Cargo">
+
+    <!-- KURIR -->
+    <h3>Pilih Kurir:</h3>
+    <select id="kurir">
+      <option value="Kurir Toko">Kurir Toko</option>
+      <option value="JNE">JNE</option>
+      <option value="TIKI">TIKI</option>
+      <option value="POS Indonesia">POS Indonesia</option>
+    </select>
+
+    <!-- METODE PEMBAYARAN -->
+    <h3>Pilih Metode Pembayaran:</h3>
+    <select id="payment">
+      <option value="QRIS">QRIS</option>
+      <option value="Transfer Bank">Transfer Bank</option>
+      <option value="E-Wallet">E-Wallet</option>
+      <option value="COD">COD</option>
+    </select>
+
+    <button id="confirm-alamat" class="checkout-btn">Kirim via WhatsApp</button>
+    <button id="close-alamat" class="close-btn">Batal</button>
+  </div>
+</div>
+
+<section class="section">
+  <div class="about">
+    <h2>Daftar Produk</h2>
+    <p>Pilih produk yang kamu inginkan dan pesan langsung lewat WhatsApp!</p>
+  </div>
+  <div class="products" id="product-list"></div>
+</section>
+
+<footer>© 2025 Toko Rokok Digital - Semua hak dilindungi.</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
