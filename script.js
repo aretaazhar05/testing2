@@ -16,7 +16,7 @@ const produkList = [
     nama:"TNS Asbak T9224 - Hitam",      // ← diperbaiki
     harga:10000, 
     stok:100, 
-    gambar:"../tahap1/gambar/gambar produk/asbak.jpg", 
+    gambar:"../gambar/gambar produk/asbak.jpg", 
     deskripsi:"Warna: Hitam" 
   },
 
@@ -24,7 +24,7 @@ const produkList = [
     nama:"Firetric FOCUS Kotak Rokok 20 Slot dengan Korek Elektrik Plasma - JD-YH093", 
     harga:25200, 
     stok:100, 
-    gambar:"../tahap1/gambar/gambar produk/firetric-kotak-rokok-20-slot-dengan-korek-elektrik-pyrotechnic-yh093.jpg", 
+    gambar:"../gambar/gambar produk/firetric-kotak-rokok-20-slot-dengan-korek-elektrik-pyrotechnic-yh093.jpg", 
     deskripsi:"Material: Aluminium & Plastik" 
   },
 
@@ -32,7 +32,7 @@ const produkList = [
     nama:"Firetric Kotak Bungkus Rokok Elegan Aluminium Cigarette Case - YH006", 
     harga:14600, 
     stok:100, 
-    gambar:"../tahap1/gambar/gambar produk/firetric-kotak-bungkus-rokok-elegan-aluminium-cigarette-case-yh006.jpg", 
+    gambar:"../gambar/gambar produk/firetric-kotak-bungkus-rokok-elegan-aluminium-cigarette-case-yh006.jpg", 
     deskripsi:"Material: Plastik dan Aluminium" 
   },
 
@@ -40,7 +40,7 @@ const produkList = [
     nama:"TNS Asbak T9224 - Silver",    // ← diperbaiki
     harga:8800, 
     stok:100, 
-    gambar:"../tahap1/gambar/gambar produk/TNS Asbak Rokok Cigar Ashtray Ash Stainless Steel - T9224.jpg", 
+    gambar:"../gambar/gambar produk/TNS Asbak Rokok Cigar Ashtray Ash Stainless Steel - T9224.jpg", 
     deskripsi:"Material: Plastik dan Aluminium" 
   },
 
@@ -49,7 +49,7 @@ const produkList = [
     harga:11700
 , 
     stok:100, 
-    gambar:"../tahap1/gambar/gambar produk/Firetric Korek Api Gas Butane Torch Jet Windproof - HQ0935.jpg", 
+    gambar:"../gambar/gambar produk/Firetric Korek Api Gas Butane Torch Jet Windproof - HQ0935.jpg", 
     deskripsi:"Material: Tembaga dan Plastik" 
   },
 
@@ -57,7 +57,7 @@ const produkList = [
     nama:"Firetric Asbak Rokok Stainless Steel Windproof Ashtray - HL7 ",    // ← diperbaiki
     harga:12000, 
     stok:100, 
-    gambar:"../tahap1/gambar/gambar produk/Firetric Asbak Rokok Stainless Steel Windproof Ashtray - HL7.jpg", 
+    gambar:"../gambar/gambar produk/Firetric Asbak Rokok Stainless Steel Windproof Ashtray - HL7.jpg", 
     deskripsi:"Material: Plastik dan Aluminium" 
   },
 
@@ -65,7 +65,7 @@ const produkList = [
     nama:"Firetric Alat Linting Rokok Otomatis Electric Roller 8x66mm - H011 ",    // ← diperbaiki
     harga:71100, 
     stok:100, 
-    gambar:"../tahap1/gambar/gambar produk/Firetric Alat Linting Rokok Otomatis Electric Roller 8x66mm - H011.jpg", 
+    gambar:"../gambar/gambar produk/Firetric Alat Linting Rokok Otomatis Electric Roller 8x66mm - H011.jpg", 
     deskripsi:"Material: Plastik dan Aluminium" 
   },
 
@@ -73,7 +73,7 @@ const produkList = [
     nama:"PEIXING Asbak Rokok Portable Rotation Enclosed Stainless Steel 1 PCS - JL032 ",    // ← diperbaiki
     harga:6000, 
     stok:100, 
-    gambar:"../tahap1/gambar/gambar produk/PEIXING Asbak Rokok Portable Rotation Enclosed Stainless Steel 1 PCS - JL032.jpg", 
+    gambar:"../gambar/gambar produk/PEIXING Asbak Rokok Portable Rotation Enclosed Stainless Steel 1 PCS - JL032.jpg", 
     deskripsi:"Material: Plastik dan Aluminium" 
   },
 
@@ -81,7 +81,7 @@ const produkList = [
     nama:"Firetric Gantungan Kunci Pemantik Api Minyak Tanah Waterproof - A1243",    // ← diperbaiki
     harga:3900, 
     stok:100, 
-    gambar:"../tahap1/gambar/gambar produk/Firetric Gantungan Kunci Pemantik Api Minyak Tanah Waterproof - A1243.jpg", 
+    gambar:"../gambar/gambar produk/Firetric Gantungan Kunci Pemantik Api Minyak Tanah Waterproof - A1243.jpg", 
     deskripsi:"Material: Plastik dan Aluminium" 
   },
 ];
