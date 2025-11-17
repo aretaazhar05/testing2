@@ -8,7 +8,7 @@ const produkList = [
     nama:"Firetric Korek Api Elektrik Pulse Plasma Cross Double Arc Lighter - JL613-FD", 
     harga:50300, 
     stok:100, 
-    gambar:"../tahap1/gambar/gambar produk/Firetric Korek Api Elektrik Pulse Plasma Cross Double Arc Lighter - JL613-FD.jpg", 
+    gambar:"../gambar/gambar produk/Firetric Korek Api Elektrik Pulse Plasma Cross Double Arc Lighter - JL613-FD.jpg", 
     deskripsi:"Warna: Metal" 
   },
 
