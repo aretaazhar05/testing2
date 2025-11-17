@@ -3,13 +3,31 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Toko Rokok Digital</title>
+<title>Produk Tembakau (bako linting) assesories</title>
+<link rel="icon" type="image/png" href="../tahap1/gambar/logo toko/logo.jpg">
 <link rel="stylesheet" href="style.css">
+  <style>
+    .filter-box {
+      display: flex;
+      gap: 10px;
+      margin: 20px 0;
+    }
+
+    .filter-box input,
+    .filter-box select {
+      padding: 10px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      font-size: 14px;
+      width: 100%;
+      max-width: 200px;
+    }
+  </style>
 </head>
 <body>
 
 <header>
-  <h1>Toko Rokok Digital</h1>
+  <h1>Produk Tembakau</h1>
   <p>Kualitas terbaik, harga bersahabat</p>
 </header>
 
@@ -25,21 +43,14 @@
   </div>
 </div>
 
-<!-- ========================= -->
-<!-- PANEL ALAMAT (SUDAH FIX) -->
-<!-- ========================= -->
 <div id="alamat-panel">
   <div id="alamat-box">
     <h2>Masukkan Data Pengiriman</h2>
-
-    <!-- ALAMAT -->
     <input id="alamat-input" type="text" placeholder="Ketik alamat lengkap..." />
 
-    <!-- JENIS ONGKIR -->
     <h3>Jenis Ongkir:</h3>
     <input type="text" id="jenis-ongkir" placeholder="Reguler / Sameday / Cargo">
 
-    <!-- KURIR -->
     <h3>Pilih Kurir:</h3>
     <select id="kurir">
       <option value="Kurir Toko">Kurir Toko</option>
@@ -48,7 +59,6 @@
       <option value="POS Indonesia">POS Indonesia</option>
     </select>
 
-    <!-- METODE PEMBAYARAN -->
     <h3>Pilih Metode Pembayaran:</h3>
     <select id="payment">
       <option value="QRIS">QRIS</option>
@@ -67,6 +77,21 @@
     <h2>Daftar Produk</h2>
     <p>Pilih produk yang kamu inginkan dan pesan langsung lewat WhatsApp!</p>
   </div>
+
+  <!-- ============================ -->
+  <!-- SEARCH + FILTER -->
+  <!-- ============================ -->
+  <div class="filter-box">
+    <input type="text" id="search-input" placeholder="Cari produk...">
+
+    <select id="filter-harga">
+      <option value="default">Urutkan</option>
+      <option value="termurah">Harga Terendah</option>
+      <option value="termahal">Harga Tertinggi</option>
+    </select>
+  </div>
+
+  <!-- LIST PRODUK -->
   <div class="products" id="product-list"></div>
 </section>
 

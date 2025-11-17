@@ -4,11 +4,86 @@ const nomorWA = "6282146212007";
 // DATA PRODUK + STOK
 // ===============================
 const produkList = [
-  { nama:"Firetric Kotak Bungkus Rokok Elegan Aluminium Cigarette Case - YH006", harga:14600, stok:10, gambar:"../gambar/gambar produk/firetric-kotak-bungkus-rokok-elegan-aluminium-cigarette-case-yh006.jpg", deskripsi:"Warna: Hitam" },
-  { nama:"TNS Asbak Rokok Cigar Ashtray Ash Stainless Steel - T9224", harga:10000, stok:5, gambar:"../gambar/gambar produk/asbak.jpg", deskripsi:"Warna: Hitam" },
-  { nama:"Firetric FOCUS Kotak Rokok 20 Slot dengan Korek Elektrik Plasma - JD-YH093", harga:25200, stok:8, gambar:"../gambar/gambar produk/firetric-kotak-rokok-20-slot-dengan-korek-elektrik-pyrotechnic-yh093.jpg", deskripsi:"Material: Aluminium & Plastik" },
-  { nama:"TNS Asbak Rokok Cigar Ashtray Ash Stainless Steel - T9224", harga:8800, stok:12, gambar:"../gambar/gambar produk/tns-asbak-rokok-cigar-ashtray-ash-stainless-steel-t9224.jpg", deskripsi:"Material: Stainless Steel" },
-  { nama:"Firetric Korek Api Elektrik Pulse Plasma Cross Double Arc Lighter - JL613-FD", harga:50300, stok:7, gambar:"../gambar/gambar produk/TNS Asbak Rokok Cigar Ashtray Ash Stainless Steel - T9224.jpg", deskripsi:"Material: Stainless Steel" }
+  { 
+    nama:"Firetric Korek Api Elektrik Pulse Plasma Cross Double Arc Lighter - JL613-FD", 
+    harga:50300, 
+    stok:100, 
+    gambar:"../tahap1/gambar/gambar produk/Firetric Korek Api Elektrik Pulse Plasma Cross Double Arc Lighter - JL613-FD.jpg", 
+    deskripsi:"Warna: Metal" 
+  },
+
+  { 
+    nama:"TNS Asbak T9224 - Hitam",      // ← diperbaiki
+    harga:10000, 
+    stok:100, 
+    gambar:"../tahap1/gambar/gambar produk/asbak.jpg", 
+    deskripsi:"Warna: Hitam" 
+  },
+
+  { 
+    nama:"Firetric FOCUS Kotak Rokok 20 Slot dengan Korek Elektrik Plasma - JD-YH093", 
+    harga:25200, 
+    stok:100, 
+    gambar:"../tahap1/gambar/gambar produk/firetric-kotak-rokok-20-slot-dengan-korek-elektrik-pyrotechnic-yh093.jpg", 
+    deskripsi:"Material: Aluminium & Plastik" 
+  },
+
+  { 
+    nama:"Firetric Kotak Bungkus Rokok Elegan Aluminium Cigarette Case - YH006", 
+    harga:14600, 
+    stok:100, 
+    gambar:"../tahap1/gambar/gambar produk/firetric-kotak-bungkus-rokok-elegan-aluminium-cigarette-case-yh006.jpg", 
+    deskripsi:"Material: Plastik dan Aluminium" 
+  },
+
+  { 
+    nama:"TNS Asbak T9224 - Silver",    // ← diperbaiki
+    harga:8800, 
+    stok:100, 
+    gambar:"../tahap1/gambar/gambar produk/TNS Asbak Rokok Cigar Ashtray Ash Stainless Steel - T9224.jpg", 
+    deskripsi:"Material: Plastik dan Aluminium" 
+  },
+
+    { 
+    nama:"Firetric Korek Api Gas Butane Torch Jet Windproof - HQ0935", 
+    harga:11700
+, 
+    stok:100, 
+    gambar:"../tahap1/gambar/gambar produk/Firetric Korek Api Gas Butane Torch Jet Windproof - HQ0935.jpg", 
+    deskripsi:"Material: Tembaga dan Plastik" 
+  },
+
+    { 
+    nama:"Firetric Asbak Rokok Stainless Steel Windproof Ashtray - HL7 ",    // ← diperbaiki
+    harga:12000, 
+    stok:100, 
+    gambar:"../tahap1/gambar/gambar produk/Firetric Asbak Rokok Stainless Steel Windproof Ashtray - HL7.jpg", 
+    deskripsi:"Material: Plastik dan Aluminium" 
+  },
+
+    { 
+    nama:"Firetric Alat Linting Rokok Otomatis Electric Roller 8x66mm - H011 ",    // ← diperbaiki
+    harga:71100, 
+    stok:100, 
+    gambar:"../tahap1/gambar/gambar produk/Firetric Alat Linting Rokok Otomatis Electric Roller 8x66mm - H011.jpg", 
+    deskripsi:"Material: Plastik dan Aluminium" 
+  },
+
+    { 
+    nama:"PEIXING Asbak Rokok Portable Rotation Enclosed Stainless Steel 1 PCS - JL032 ",    // ← diperbaiki
+    harga:6000, 
+    stok:100, 
+    gambar:"../tahap1/gambar/gambar produk/PEIXING Asbak Rokok Portable Rotation Enclosed Stainless Steel 1 PCS - JL032.jpg", 
+    deskripsi:"Material: Plastik dan Aluminium" 
+  },
+
+      { 
+    nama:"Firetric Gantungan Kunci Pemantik Api Minyak Tanah Waterproof - A1243",    // ← diperbaiki
+    harga:3900, 
+    stok:100, 
+    gambar:"../tahap1/gambar/gambar produk/Firetric Gantungan Kunci Pemantik Api Minyak Tanah Waterproof - A1243.jpg", 
+    deskripsi:"Material: Plastik dan Aluminium" 
+  },
 ];
 
 let cart = [];
