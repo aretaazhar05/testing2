@@ -64,7 +64,7 @@ const produkList = [
     { 
     nama:"Firetric Alat Linting Rokok Otomatis Electric Roller 8x66mm - H011 ",    // ← diperbaiki
     harga:71100, 
-    stok:100, 
+    stok:25, 
     gambar:"../gambar/gambar produk/Firetric Alat Linting Rokok Otomatis Electric Roller 8x66mm - H011.jpg", 
     deskripsi:"Material: Plastik dan Aluminium" 
   },
