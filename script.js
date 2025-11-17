@@ -1,4 +1,4 @@
-const nomorWA = "6282146212007";
+const nomorWA = "6282114527948";
 
 // ===============================
 // DATA PRODUK + STOK
